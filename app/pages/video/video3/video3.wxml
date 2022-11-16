@@ -1,0 +1,90 @@
+<view class="container">
+	<szkt-navbar bgColor="white">
+		<view slot="content">
+			<view class="flex align-center flex-nowrap szkt-col-24">
+				<szkt-navbar bgColor="red" isBack="{{true}}">
+					<view slot="backText"> 返回 </view>
+					<view slot="content"> 视频详情 </view>
+				</szkt-navbar>
+			</view>
+		</view>
+	</szkt-navbar>
+	<view class="flex szkt-col-24">
+		<video src="https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/video/video3.mp4?versionId=CAEQJhiBgMDHtdSclBgiIGQzOGE4OGE1Nzk4ZDQ3ODRhOTBmMzc2MWEyYjllOGQ3" style="width: 105%; height: 200px" title="追忆峥嵘映初心 领航时代担使命" poster="/static/2.jpg" controls></video>
+	</view>
+	<view class="flex flex-wrap szkt-col-24 flex-direction-column flex1-clz">
+		<view class="flex szkt-col-5 justify-between flex-wrap tag-clz">
+		</view>
+		<view class="flex szkt-col-5 justify-between flex-wrap tag2-clz">
+			<view style="color: #060505" class="szkt-tag padding-lr-sm not-border xs radius-sm">
+				<text> 视频简介 </text>
+			</view>
+		</view>
+		<view class="flex szkt-col-19 flex-wrap flex-clz">
+			<view class="szkt-col-24 text1-clz szkt-text-sm"> “追忆峥嵘映初心，领航时代担使命”——我们伟大的中国共产党经历了从诞生、成长、成熟的光辉历程，起于遍地疮痍，立于微末纤毫，行于筚路蓝缕，战于山河九州，自龙潜于渊至声闻于天，已历百年。 </view>
+		</view>
+	</view>
+	<view class="flex flex-wrap szkt-col-24 flex2-clz">
+		<view class="flex flex-wrap szkt-col-24 flex-direction-column flex3-clz">
+			<rich-text nodes="{{text3}}" class="szkt-col-4 text2-clz szkt-text-xs"></rich-text>
+			<view class="flex flex-wrap szkt-col-12 flex-direction-column justify-start items-stretch flex4-clz">
+			</view>
+			<view class="flex flex-wrap szkt-col-12 flex-direction-column justify-start items-stretch flex10-clz">
+				<view class="flex szkt-col-8 tag9-clz">
+					<view class="szkt-tag flex-direction-row-reverse xs radius">
+            <image class="collect" bindtap='focusFavoriteTab'  wx:if="{{!status}}" src="https://i.loli.net/2021/08/17/GfXIvoW7PuUmiw2.png"  data-itemId="bbb"></image>
+            <image class="collect" bindtap='focusFavoriteTab'  wx:if="{{status}}" src="https://i.loli.net/2021/08/17/XdVuspHQPxmScW3.png"  data-itemId="bbb"></image>
+						<text>收藏</text>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+	<view class="flex flex-wrap szkt-col-24 flex-direction-column flex5-clz">
+		<view class="flex flex-wrap szkt-col-24 justify-between flex7-clz">
+			<view class="szkt-col-0 text3-clz szkt-text-md"> 微信用户10241 </view>
+			<view class="flex szkt-col-0 tag4-clz">
+				<view class="szkt-tag flex-direction-row-reverse xs radius">
+					<text  class="icon szkt-icon-appreciate"></text>
+					<text> 1115 </text>
+				</view>
+			</view>
+		</view>
+		<view class="flex szkt-col-24 justify-between tag7-clz">
+			<view class="szkt-tag xs radius">
+				<text class="icon szkt-icon-communityfill"></text>
+				<text> 21回复 </text>
+			</view>
+			<view class="szkt-tag xs radius">
+				<text class="icon szkt-icon-timefill"></text>
+				<text> 2022-7-19 </text>
+			</view>
+		</view>
+		<view class="szkt-col-24 text5-clz"> 中国共产党万岁！人民万岁！</view>
+	</view>
+	<view class="flex flex-wrap szkt-col-24 flex-direction-column flex8-clz">
+		<view class="flex flex-wrap szkt-col-24 justify-between flex11-clz">
+			<view class="szkt-col-0 text6-clz szkt-text-md"> 微信用户10086 </view>
+			<view class="flex szkt-col-0 tag8-clz">
+				<view class="szkt-tag flex-direction-row-reverse xs radius">
+					<text class="icon szkt-icon-appreciate"></text>
+					<text> 10772 </text>
+				</view>
+			</view>
+		</view>
+		<view class="flex szkt-col-24 justify-between tag11-clz">
+			<view class="szkt-tag xs radius">
+				<text class="icon szkt-icon-communityfill"></text>
+				<text> 95回复 </text>
+			</view>
+			<view class="szkt-tag xs radius">
+				<text   class="icon szkt-icon-timefill"></text>
+				<text> 2022-5-20 </text>
+			</view>
+		</view>
+		<view class="szkt-col-24 text9-clz">
+			1921年正值中国内忧外患、民族危亡之际，各种势力轮流登上历史舞台却都不能拯救中国于水火，周遭帝国主义虎视眈眈，可谓危急存亡之际。也就在这一年，中国共产党在上海成立，而第一次全国代表大会就在上海嘉兴南湖的“红船”上举行，当时这个政党在全国范围内只有57名党员，参加第一次全国代表大会的总共也只有13个人，而经过了一百年的成长到今天，据中央组织部最新党内统计公报数据显示，截至2019年底，中国共产党党员总数为9191.4万名，已经超过了九千万，一百年间，一条小船和一个大党的故事，说不完、道不尽，我们的党从嘉兴南湖的一条“红船”上走来，历经坎坷的岁月、历经战争的洗礼，为了国家与民族、为了人民的解放事业出生入死，用雄魄的身躯把星星之火燃遍了全国。战斗性是我党的第一属性，我党自诞生之初便是一个战斗队伍，战斗队伍由战士组成，而战士是人类最古老的职业，肩负着保护聚落和披荆斩棘的职责，我党同样如此，要让中国这么一个后发工业化的第三世界国家，在虎狼环伺且日益险恶的世界生存下去，必须锋刃常利，甲杖常备，枕戈待旦实属必为。
+		</view>
+	</view>
+	<view class="clearfix"></view>
+</view>

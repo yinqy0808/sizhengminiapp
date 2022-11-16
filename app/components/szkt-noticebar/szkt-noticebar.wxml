@@ -1,0 +1,22 @@
+<view class="szkt-notice-bar flex1" style="{{'background:'+(bgColor)+';'+('padding:'+(padding)+';')}}">
+  <view class="flex align-center" style="{{'color:'+color+';font-size:'+fontSize+'rpx;'}}">
+    <block wx:if="{{leftImg}}">
+      <image class="szkt-notice-img" src="{{leftImg}}"></image>
+    </block>
+    <block wx:if="{{leftIcon}}"><text class="{{leftIcon}}" color="{{computeColor}}"></text></block>
+    <view class="szkt-notice-box flex1" id="szkt-notice-box">
+      <block wx:if="{{vertical}}">
+        <view class="szkt-notice-swiper flex1">
+          <slot name="content"></slot>
+        </view>
+      </block>
+      <block wx:else>
+        <view class="szkt-notice-content flex1" style="{{'animation-duration:'+(animationDuration)+';'+('animation-play-state:'+(animationPlayState)+';')}}" id="szkt-notice-content">
+          <view  class="szkt-notice-text">
+            <slot name="content"></slot>
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>

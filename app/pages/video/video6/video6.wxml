@@ -1,0 +1,71 @@
+<view class="container">
+	<szkt-navbar bgColor="white">
+		<view slot="content">
+			<view class="flex align-center flex-nowrap szkt-col-24">
+				<szkt-navbar bgColor="red" isBack="{{true}}">
+					<view slot="backText"> 返回 </view>
+					<view slot="content"> 视频详情 </view>
+				</szkt-navbar>
+			</view>
+		</view>
+	</szkt-navbar>
+	<view class="flex szkt-col-24">
+		<video src="https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/video/video6.mp4?versionId=CAEQJhiBgMD0mK.PlhgiIDIzNWUxOTUwMjFhZjQ0YzI5MzhmNDg3ZDVkOWVjNTAx" style="width: 105%; height: 200px" title="学好百年党史 凝聚奋斗伟力" poster="/static/2.jpg" controls></video>
+	</view>
+	<view class="flex flex-wrap szkt-col-24 flex-direction-column flex1-clz">
+		<view class="flex szkt-col-5 justify-between flex-wrap tag1-clz">
+			<view style="color: #060505" class="szkt-tag padding-lr-sm not-border xs radius-sm">
+				<text> 活动花絮 </text>
+			</view>
+		</view>
+		<view class="flex szkt-col-5 justify-between flex-wrap tag3-clz">
+			<view style="color: #060505" class="szkt-tag padding-lr-sm not-border xs radius-sm">
+				<text> 视频简介 </text>
+			</view>
+		</view>
+		<view class="flex szkt-col-19 flex-wrap flex2-clz">
+			<view class="szkt-col-24 text-clz szkt-text-sm"> “学好百年党史，凝聚奋斗伟力”——习近平总书记在党史学习教育动员大会上深刻指出：“我们党的一百年，是矢志践行初心使命的一百年，是筚路蓝缕奠基立业的一百年，是创造辉煌开辟未来的一百年。” </view>
+		</view>
+	</view>
+	<view class="flex flex-wrap szkt-col-24 flex-clz">
+		<view class="flex flex-wrap szkt-col-24 flex-direction-column flex4-clz">
+			<rich-text nodes="{{text1}}" class="szkt-col-4 text1-clz szkt-text-xs"></rich-text>
+			<view class="flex flex-wrap szkt-col-12 flex-direction-column justify-start items-stretch flex6-clz">
+			</view>
+			<view class="flex flex-wrap szkt-col-12 flex-direction-column justify-start items-stretch flex7-clz">
+				<view class="flex szkt-col-8 tag9-clz">
+					<view class="szkt-tag flex-direction-row-reverse xs radius">
+            <image class="collect" bindtap='focusFavoriteTab'  wx:if="{{!status}}" src="https://i.loli.net/2021/08/17/GfXIvoW7PuUmiw2.png"  data-itemId="bbb"></image>
+            <image class="collect" bindtap='focusFavoriteTab'  wx:if="{{status}}" src="https://i.loli.net/2021/08/17/XdVuspHQPxmScW3.png"  data-itemId="bbb"></image>
+						<text>收藏</text>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+	<view class="flex flex-wrap szkt-col-24 flex-direction-column flex3-clz">
+		<view class="flex flex-wrap szkt-col-24 justify-between flex5-clz">
+			<view class="szkt-col-0 text2-clz szkt-text-md"> 微信用户79 </view>
+			<view class="flex szkt-col-0 tag5-clz">
+				<view class="szkt-tag flex-direction-row-reverse xs radius">
+					<text class="icon szkt-icon-appreciate"></text>
+					<text> 9 </text>
+				</view>
+
+			</view>
+		</view>
+		<view class="flex szkt-col-24 justify-between tag6-clz">
+			<view class="szkt-tag xs radius">
+				<text class="icon szkt-icon-communityfill"></text>
+				<text decode> &nbsp;0回复 </text>
+			</view>
+			<view class="szkt-tag xs radius">
+				<text class="icon szkt-icon-timefill"></text>
+				<text> 2021-10-20 </text>
+			</view>
+		</view>
+		<view class="szkt-col-24 text4-clz"> 学好党史，从我做起。 </view>
+	</view>
+	
+	<view class="clearfix"></view>
+</view>

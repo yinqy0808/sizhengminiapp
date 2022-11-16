@@ -1,0 +1,12 @@
+
+{
+    "navigationBarTitleText": "用户",
+    "navigationBarBackgroundColor": "#ff0a0a",
+    "usingComponents": {
+      "szkt-navbar": "/components/szkt-navbar/szkt-navbar",
+      "szkt-sticky": "/components/szkt-sticky/szkt-sticky",
+      "szkt-noticebar": "/components/szkt-noticebar/szkt-noticebar",
+      "szkt-audio": "/components/szkt-audio/szkt-audio"
+    }
+}
+

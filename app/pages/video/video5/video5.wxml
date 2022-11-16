@@ -1,0 +1,67 @@
+<view class="container">
+	<szkt-navbar bgColor="white">
+		<view slot="content">
+			<view class="flex align-center flex-nowrap szkt-col-24">
+				<szkt-navbar bgColor="red" isBack="{{true}}">
+					<view slot="backText"> 返回 </view>
+					<view slot="content"> 视频详情 </view>
+				</szkt-navbar>
+			</view>
+		</view>
+	</szkt-navbar>
+	<view class="flex szkt-col-24">
+		<video src="https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/video/video5.mp4?versionId=CAEQJhiBgIDBtdSclBgiIDhiZjRhZDg3M2FiYzQ5ZDc5NjIwYzY1ZmY1ZDE1MjVk" style="width: 105%; height: 200px" title="浴血百年路 启航新征程" poster="/static/2.jpg" controls></video>
+	</view>
+	<view class="flex flex-wrap szkt-col-24 flex-direction-column flex1-clz">
+		<view class="flex szkt-col-5 justify-between flex-wrap tag-clz">
+		</view>
+		<view class="flex szkt-col-5 justify-between flex-wrap tag2-clz">
+			<view style="color: #060505" class="szkt-tag padding-lr-sm not-border xs radius-sm">
+				<text> 视频简介 </text>
+			</view>
+		</view>
+		<view class="flex szkt-col-19 flex-direction-column flex-wrap flex-clz">
+			<view class="szkt-col-24 text1-clz szkt-text-sm"> “浴血百年路，启航新征程”——深情回望百年征程，乘风启航时代新途。 </view>
+		</view>
+	</view>
+	<view class="flex flex-wrap szkt-col-24 flex2-clz">
+		<view class="flex flex-wrap szkt-col-24 flex-direction-column flex3-clz">
+			<rich-text nodes="{{text5}}" class="szkt-col-4 text2-clz szkt-text-xs"></rich-text>
+			<view class="flex szkt-col-12 flex-direction-column flex-nowrap flex5-clz">
+			</view>
+			<view class="flex flex-wrap szkt-col-12 flex-direction-column justify-start items-stretch flex9-clz">
+				<view class="flex szkt-col-8 tag9-clz">
+					<view class="szkt-tag flex-direction-row-reverse xs radius">
+            <image class="collect" bindtap='focusFavoriteTab'  wx:if="{{!status}}" src="https://i.loli.net/2021/08/17/GfXIvoW7PuUmiw2.png"  data-itemId="bbb"></image>
+            <image class="collect" bindtap='focusFavoriteTab'  wx:if="{{status}}" src="https://i.loli.net/2021/08/17/XdVuspHQPxmScW3.png"  data-itemId="bbb"></image>
+						<text>收藏</text>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+	<view class="flex flex-wrap szkt-col-24 flex-direction-column flex4-clz">
+		<view class="flex flex-wrap szkt-col-24 justify-between flex7-clz">
+			<view class="szkt-col-0 text3-clz szkt-text-md"> 微信用户996 </view>
+			<view class="flex szkt-col-0 tag4-clz">
+				<view class="szkt-tag flex-direction-row-reverse xs radius">
+					<text  class="icon szkt-icon-appreciate"></text>
+					<text> 703 </text>
+				</view>
+			</view>
+		</view>
+		<view class="flex szkt-col-24 justify-between tag7-clz">
+			<view class="szkt-tag xs radius">
+				<text class="icon szkt-icon-communityfill"></text>
+				<text> 26回复 </text>
+			</view>
+			<view class="szkt-tag xs radius">
+				<text  class="icon szkt-icon-timefill"></text>
+				<text> 2022-4-28 </text>
+			</view>
+		</view>
+		<view class="szkt-col-24 text5-clz"> 赞！中国一定会在共产党的领导之下越走越远！ </view>
+	</view>
+	
+	<view class="clearfix"></view>
+</view>

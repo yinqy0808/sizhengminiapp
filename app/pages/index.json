@@ -1,0 +1,9 @@
+{
+	"navigationBarTitleText": "红色思政课堂",
+	"navigationBarBackgroundColor": "#ff0a0a",
+	"usingComponents": {
+		"szkt-sticky": "/components/szkt-sticky/szkt-sticky",
+		"szkt-noticebar": "/components/szkt-noticebar/szkt-noticebar",
+		"szkt-audio": "/components/szkt-audio/szkt-audio"
+	}
+}

@@ -1,0 +1,508 @@
+.flex2-clz {
+	bottom: 0rpx;
+	width: 120rpx;
+	right: 0rpx;
+}
+.flex-clz {
+	background-repeat: repeat-x;
+	background-size: cover;
+}
+.flex5-clz {
+	background-image: url(https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/index/hsbj.jpg?versionId=CAEQJhiCgIC6krLdlBgiIDUzYWVkNzUyOGI2MzRhYTlhYWIzYjIwOWI2YzA4NDI1);
+}
+.autoview1-clz {
+	z-index: 1000;
+	height: 100rpx;
+}
+
+.autoview1_0 {
+	left: 2rpx;
+	top: 0rpx;
+	width: 602rpx;
+	height: 84rpx;
+	z-index: 0;
+}
+.autoview1_0 > .flex {
+	height: 100%;
+}
+.autoview1_1 {
+	left: 502rpx;
+	top: 0rpx;
+	width: 224rpx;
+	height: 76rpx;
+	z-index: 0;
+}
+.autoview1_1 > .flex {
+	height: 100%;
+}
+.noticebar-clz {
+	padding-top: 4rpx;
+	color: #ffffff;
+	padding-left: 0rpx;
+	padding-bottom: 0rpx;
+	padding-right: 0rpx;
+}
+.audio-clz {
+	margin-left: 154rpx;
+	width: calc(100% - 154rpx - 10rpx) !important;
+	margin-top: -4rpx;
+	margin-bottom: 10rpx;
+	margin-right: 10rpx;
+}
+.flex6-clz {
+	margin-left: 0rpx;
+	z-index: 100;
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 100% !important;
+	margin-top: -2rpx;
+	margin-bottom: 0rpx;
+	margin-right: 0rpx;
+}
+.flex1-clz {
+	border-bottom-left-radius: 20rpx;
+	z-index: 100;
+	border-top-right-radius: 20rpx;
+	margin-right: 20rpx;
+	background-color: rgba(217, 217, 217, 0.13);
+	margin-left: 20rpx;
+	box-shadow: 0rpx 4rpx 8rpx 6rpx rgba(181, 207, 255, 0.5);
+	overflow: hidden;
+	width: calc(100% - 20rpx - 20rpx) !important;
+	border-top-left-radius: 20rpx;
+	margin-top: 14rpx;
+	border-bottom-right-radius: 20rpx;
+	margin-bottom: 0rpx;
+}
+.image1-clz {
+	margin-left: 0rpx;
+	border-bottom-left-radius: 12rpx;
+	overflow: hidden;
+	width: 100% !important;
+	border-top-left-radius: 12rpx;
+	margin-top: 0rpx;
+	border-top-right-radius: 12rpx;
+	border-bottom-right-radius: 12rpx;
+	margin-bottom: 0rpx;
+	margin-right: 0rpx;
+}
+.flex3-clz {
+	border-bottom-left-radius: 20rpx;
+	z-index: 100;
+	border-top-right-radius: 20rpx;
+	margin-right: 20rpx;
+	background-color: rgba(234, 234, 234, 0.84);
+	margin-left: 20rpx;
+	box-shadow: 0rpx 4rpx 8rpx 6rpx rgba(181, 207, 255, 0.5);
+	overflow: hidden;
+	width: calc(100% - 20rpx - 20rpx) !important;
+	border-top-left-radius: 20rpx;
+	margin-top: 26rpx;
+	border-bottom-right-radius: 20rpx;
+	margin-bottom: 20rpx;
+}
+.swiper-clz {
+	margin-left: -2rpx;
+	border-bottom-left-radius: 12rpx;
+	overflow: hidden;
+	width: calc(100% - -2rpx - -2rpx) !important;
+	border-top-left-radius: 4rpx;
+	margin-top: 0rpx;
+	border-top-right-radius: 12rpx;
+	border-bottom-right-radius: 12rpx;
+	margin-bottom: 10rpx;
+	margin-right: -2rpx;
+}
+.grid-clz {
+	margin-left: 10rpx;
+	width: calc(100% - 10rpx - 10rpx) !important;
+	margin-top: 16rpx;
+	margin-bottom: 10rpx;
+	margin-right: 10rpx;
+}
+.grid-item-clz {
+	font-size: 24rpx;
+	margin: 0rpx;
+	padding: 0rpx;
+}
+.grid-icon-clz {
+	width: 60rpx;
+	height: 60rpx;
+	font-size: calc(60rpx - 8rpx) !important;
+}
+.title1-clz {
+	font-size: 12rpx;
+}
+.grid1-clz {
+	padding-top: 12rpx;
+	border-bottom-left-radius: 20rpx;
+	padding-left: 12rpx;
+	padding-bottom: 12rpx;
+	border-top-right-radius: 20rpx;
+	margin-right: 6rpx;
+	margin-left: 6rpx;
+	box-shadow: 0rpx 2rpx 6rpx 2rpx rgba(31, 31, 31, 0.16);
+	overflow: hidden;
+	width: calc(100% - 6rpx - 6rpx) !important;
+	border-top-left-radius: 20rpx;
+	margin-top: -2rpx;
+	border-bottom-right-radius: 20rpx;
+	margin-bottom: 6rpx;
+	padding-right: 12rpx;
+}
+.grid1-item-clz {
+	font-size: 24rpx;
+	margin: -2rpx;
+	padding: 20rpx;
+}
+.grid1-icon-clz {
+	width: 300rpx;
+	height: 202rpx;
+	font-size: calc(202rpx - 8rpx) !important;
+}
+.flex15-clz {
+	padding-top: -4rpx;
+	border-bottom-left-radius: 32rpx;
+	padding-left: 20rpx;
+	padding-bottom: 20rpx;
+	border-top-right-radius: 32rpx;
+	margin-right: 12rpx;
+	background-color: #ffffff;
+	margin-left: 4rpx;
+	box-shadow: 6rpx 6rpx 6rpx rgba(5, 5, 5, 0.16);
+	overflow: hidden;
+	width: calc(100% - 4rpx - 12rpx) !important;
+	border-top-left-radius: 32rpx;
+	margin-top: 2rpx;
+	border-bottom-right-radius: 32rpx;
+	margin-bottom: 0rpx;
+	padding-right: 20rpx;
+}
+.title-clz {
+	font-size: 12rpx;
+}
+.tabs1-clz {
+	background-color: #fdfdfd;
+}
+.szkt-user-tabs .szkt-tab-item {
+	background: #fff;
+	margin: 10rpx;
+	height: 60rpx;
+	line-height: 60rpx;
+	border-radius: 400rpx;
+}
+.tabs1-title {
+	font-size: 22rpx !important;
+}
+
+.flex17-clz {
+	margin-left: 10rpx;
+	z-index: 100;
+	width: calc(100% - 10rpx - 10rpx) !important;
+	margin-top: 10rpx;
+	margin-bottom: 10rpx;
+	margin-right: 10rpx;
+}
+.flex21-clz {
+	margin-left: 10rpx;
+	border-bottom-left-radius: 12rpx;
+	z-index: 100;
+	overflow: hidden;
+	width: calc(50% - 10rpx - 10rpx) !important;
+	border-top-left-radius: 12rpx;
+	margin-top: 10rpx;
+	border-top-right-radius: 12rpx;
+	border-bottom-right-radius: 12rpx;
+	margin-bottom: 10rpx;
+	margin-right: 10rpx;
+}
+.flex25-clz {
+	border-bottom-left-radius: 12rpx;
+	z-index: 100;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	border-top-left-radius: 12rpx;
+	border-top-right-radius: 12rpx;
+	border-bottom-right-radius: 12rpx;
+	background-image: url(https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/hot/visit.jpg?versionId=CAEQJhiBgMCNi9PJlBgiIDZlOGU0OTQ2ZDdkOTQyOWU4MmQyOWUzNDBhMGVmODgz);
+	background-position: center center;
+	height: 200rpx;
+}
+.text1-clz {
+	background-color: rgba(48, 48, 48, 0.64);
+	padding-top: 10rpx;
+	padding-left: 10rpx;
+	padding-bottom: 10rpx;
+	padding-right: 10rpx;
+}
+.text7-clz {
+	margin-left: 0rpx;
+	margin-top: 10rpx;
+	margin-bottom: 10rpx;
+	margin-right: 0rpx;
+}
+.flex29-clz {
+	margin-left: 10rpx;
+	border-bottom-left-radius: 12rpx;
+	z-index: 100;
+	overflow: hidden;
+	width: calc(50% - 10rpx - 10rpx) !important;
+	border-top-left-radius: 12rpx;
+	margin-top: 10rpx;
+	border-top-right-radius: 12rpx;
+	border-bottom-right-radius: 12rpx;
+	margin-bottom: 10rpx;
+	margin-right: 10rpx;
+}
+.flex38-clz {
+	border-bottom-left-radius: 12rpx;
+	z-index: 100;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	flex: 1;
+	border-top-left-radius: 12rpx;
+	border-top-right-radius: 12rpx;
+	border-bottom-right-radius: 12rpx;
+	background-image: url(https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/hot/sea.jpg?versionId=CAEQJhiBgIC9stLJlBgiIDFmNDc0MmYxNTQ3YzQ5ZmU5NmM5YjM0NGNmNTcxODk0);
+	background-position: center center;
+	height: 200rpx;
+}
+.text13-clz {
+	background-color: rgba(48, 48, 48, 0.64);
+	padding-top: 10rpx;
+	padding-left: 10rpx;
+	padding-bottom: 10rpx;
+	padding-right: 10rpx;
+}
+.text16-clz {
+	margin-left: 0rpx;
+	margin-top: 10rpx;
+	margin-bottom: 10rpx;
+	margin-right: 0rpx;
+}
+.flex41-clz {
+	margin-left: 10rpx;
+	border-bottom-left-radius: 10rpx;
+	z-index: 100;
+	overflow: hidden;
+	width: calc(50% - 10rpx - 10rpx) !important;
+	border-top-left-radius: 12rpx;
+	margin-top: 10rpx;
+	border-top-right-radius: 12rpx;
+	border-bottom-right-radius: 12rpx;
+	margin-bottom: 10rpx;
+	margin-right: 10rpx;
+}
+.flex43-clz {
+	border-bottom-left-radius: 12rpx;
+	z-index: 100;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	border-top-left-radius: 12rpx;
+	border-top-right-radius: 12rpx;
+	border-bottom-right-radius: 12rpx;
+	background-image: url(https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/hot/szkt.jpg?versionId=CAEQJhiBgMCckdLJlBgiIDdhZjg1ZmZkMzFlZTRmNTg5ODA5YjUyZTk5MzdiNDY0);
+	background-position: center center;
+	height: 200rpx;
+}
+.text22-clz {
+	background-color: rgba(48, 48, 48, 0.64);
+	padding-top: 10rpx;
+	padding-left: 10rpx;
+	padding-bottom: 10rpx;
+	padding-right: 10rpx;
+}
+.text25-clz {
+	margin-left: 0rpx;
+	margin-top: 10rpx;
+	margin-bottom: 10rpx;
+	margin-right: 0rpx;
+}
+.flex45-clz {
+	margin-left: 10rpx;
+	border-bottom-left-radius: 12rpx;
+	z-index: 100;
+	overflow: hidden;
+	width: calc(50% - 10rpx - 10rpx) !important;
+	border-top-left-radius: 12rpx;
+	margin-top: 10rpx;
+	border-top-right-radius: 12rpx;
+	border-bottom-right-radius: 12rpx;
+	margin-bottom: 10rpx;
+	margin-right: 10rpx;
+}
+.flex47-clz {
+	border-bottom-left-radius: 12rpx;
+	z-index: 100;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	border-top-left-radius: 12rpx;
+	border-top-right-radius: 12rpx;
+	border-bottom-right-radius: 12rpx;
+	background-image: url(https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/hot/hot5.jpg?versionId=CAEQJhiBgICdi9PJlBgiIDk5MGZmZDMwZGVhNTRlY2VhNmZlYjQwYzdiYzVhMDE4);
+	background-position: center center;
+	height: 200rpx;
+}
+.text30-clz {
+	background-color: rgba(48, 48, 48, 0.64);
+	padding-top: 10rpx;
+	padding-left: 10rpx;
+	padding-bottom: 10rpx;
+	padding-right: 10rpx;
+}
+.text32-clz {
+	margin-left: 0rpx;
+	margin-top: 10rpx;
+	margin-bottom: 10rpx;
+	margin-right: 0rpx;
+}
+.flex16-clz {
+	margin-left: 10rpx;
+	z-index: 100;
+	width: calc(100% - 10rpx - 10rpx) !important;
+	margin-top: 10rpx;
+	margin-bottom: 10rpx;
+	margin-right: 10rpx;
+}
+.flex18-clz {
+	margin-left: 10rpx;
+	border-bottom-left-radius: 12rpx;
+	z-index: 100;
+	overflow: hidden;
+	width: calc(50% - 10rpx - 10rpx) !important;
+	border-top-left-radius: 12rpx;
+	margin-top: 10rpx;
+	border-top-right-radius: 12rpx;
+	border-bottom-right-radius: 12rpx;
+	margin-bottom: 10rpx;
+	margin-right: 10rpx;
+}
+.flex20-clz {
+	border-bottom-left-radius: 12rpx;
+	z-index: 100;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	border-top-left-radius: 12rpx;
+	border-top-right-radius: 12rpx;
+	border-bottom-right-radius: 12rpx;
+	background-image: url(https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/video/video/bwcx.png?versionId=CAEQJhiBgIDz.frflBgiIDU2ODY5MjI2NWY4MzRjMDhiNWEwMGJjNmUxZTM0MWY4);
+	background-position: center center;
+	height: 200rpx;
+}
+.text6-clz {
+	margin-left: 0rpx;
+	margin-top: 10rpx;
+	margin-bottom: 10rpx;
+	margin-right: 0rpx;
+}
+.flex22-clz {
+	margin-left: 10rpx;
+	border-bottom-left-radius: 12rpx;
+	z-index: 100;
+	overflow: hidden;
+	width: calc(50% - 10rpx - 10rpx) !important;
+	border-top-left-radius: 12rpx;
+	margin-top: 10rpx;
+	border-top-right-radius: 12rpx;
+	border-bottom-right-radius: 12rpx;
+	margin-bottom: 10rpx;
+	margin-right: 10rpx;
+}
+.flex24-clz {
+	border-bottom-left-radius: 12rpx;
+	z-index: 100;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	flex: 1;
+	border-top-left-radius: 12rpx;
+	border-top-right-radius: 12rpx;
+	border-bottom-right-radius: 12rpx;
+	background-image: url(https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/video/video/jgs.png?versionId=CAEQJhiBgMDu.frflBgiIGJlMWYyMzdmYmVhYzRmNjJhMjc3ZjQxZTIxN2IxMDJh);
+	background-position: center center;
+	height: 200rpx;
+}
+.text12-clz {
+	margin-left: 0rpx;
+	margin-top: 10rpx;
+	margin-bottom: 10rpx;
+	margin-right: 0rpx;
+}
+.flex26-clz {
+	margin-left: 10rpx;
+	border-bottom-left-radius: 12rpx;
+	z-index: 100;
+	overflow: hidden;
+	width: calc(50% - 10rpx - 10rpx) !important;
+	border-top-left-radius: 12rpx;
+	margin-top: 10rpx;
+	border-top-right-radius: 12rpx;
+	border-bottom-right-radius: 12rpx;
+	margin-bottom: 10rpx;
+	margin-right: 10rpx;
+}
+.flex28-clz {
+	border-bottom-left-radius: 12rpx;
+	z-index: 100;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	border-top-left-radius: 12rpx;
+	border-top-right-radius: 12rpx;
+	border-bottom-right-radius: 12rpx;
+	background-image: url(https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/video/video/bnds.png?versionId=CAEQJhiBgMDa.frflBgiIDI1ODQ3NDA4YmRmYTRlMzNhMTQ4YmZkZWNmNDQxZTM5);
+	background-position: center center;
+	height: 200rpx;
+}
+.text18-clz {
+	margin-left: 0rpx;
+	margin-top: 10rpx;
+	margin-bottom: 10rpx;
+	margin-right: 0rpx;
+}
+.flex30-clz {
+	margin-left: 10rpx;
+	border-bottom-left-radius: 12rpx;
+	z-index: 100;
+	overflow: hidden;
+	width: calc(50% - 10rpx - 10rpx) !important;
+	border-top-left-radius: 12rpx;
+	margin-top: 10rpx;
+	border-top-right-radius: 12rpx;
+	border-bottom-right-radius: 12rpx;
+	margin-bottom: 10rpx;
+	margin-right: 10rpx;
+}
+.flex32-clz {
+	border-bottom-left-radius: 12rpx;
+	z-index: 100;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	border-top-left-radius: 12rpx;
+	border-top-right-radius: 12rpx;
+	border-bottom-right-radius: 12rpx;
+	background-image: url(https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/video/video/xzc.png?versionId=CAEQJhiBgMDk.frflBgiIDYyODExNDMxMjY0ODRmNDE4ODJlY2NjNjdjZGY5YzQ2);
+	background-position: center center;
+	height: 200rpx;
+}
+.text24-clz {
+	margin-left: 0rpx;
+	margin-top: 10rpx;
+	margin-bottom: 10rpx;
+	margin-right: 0rpx;
+}
+.container {
+	padding-left: 0rpx;
+	padding-right: 0rpx;
+
+	font-size: 24rpx;
+}
+.container {
+	padding-bottom: 160rpx;
+}

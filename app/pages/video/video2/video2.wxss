@@ -1,0 +1,100 @@
+.flex1-clz {
+	margin-left: 10rpx;
+	width: calc(100% - 10rpx - 10rpx) !important;
+	margin-top: 10rpx;
+	margin-bottom: 10rpx;
+	height: 144rpx;
+	margin-right: 10rpx;
+}
+.tag-clz {
+	margin-left: 10rpx;
+	width: calc(20.8333333333% - 10rpx - 10rpx) !important;
+	margin-top: 10rpx;
+	margin-bottom: 10rpx;
+	margin-right: 10rpx;
+}
+.tag2-clz {
+	margin-left: 10rpx;
+	width: calc(20.8333333333% - 10rpx - 10rpx) !important;
+	margin-top: 10rpx;
+	margin-bottom: 10rpx;
+	margin-right: 10rpx;
+}
+.flex-clz {
+	height: 144rpx;
+}
+.text1-clz {
+	margin-left:10rpx;
+	width: calc(91.6666666667% - 10rpx - 10rpx) !important;
+	margin-top: 10rpx;
+	margin-bottom: 10rpx;
+	margin-right: 10rpx;
+}
+.flex2-clz {
+	padding-top: 10rpx;
+	border-bottom-left-radius: 12rpx;
+	z-index: 1000;
+	padding-left: 10rpx;
+	padding-bottom: 10rpx;
+	border-top-right-radius: 12rpx;
+	margin-right: 10rpx;
+	margin-left: 10rpx;
+	box-shadow: 0rpx 2rpx 6rpx 2rpx rgba(31, 31, 31, 0.16);
+	overflow: hidden;
+	width: calc(100% - 10rpx - 10rpx) !important;
+	border-top-left-radius: 12rpx;
+	margin-top: 10rpx;
+	border-bottom-right-radius: 12rpx;
+	margin-bottom: 10rpx;
+	padding-right: 10rpx;
+}
+.flex3-clz {
+	height: 72rpx;
+}
+.text2-clz {
+	margin-left: 10rpx;
+	width: calc(16.6666666667% - 10rpx - 10rpx) !important;
+	margin-top: 10rpx;
+	margin-bottom: 10rpx;
+	margin-right: 10rpx;
+}
+.flex4-clz {
+	height:72rpx;
+}
+.tag1-clz {
+	margin-left: 10rpx;
+	border: 2rpx solid #8b8a8a;
+	border-bottom-left-radius: 12rpx;
+	overflow: hidden;
+  border-top-left-radius: 12rpx;
+  width: calc(100% - 10rpx - 10rpx) !important;
+	margin-top: 10rpx;
+	border-top-right-radius: 12rpx;
+	border-bottom-right-radius: 12rpx;
+	margin-bottom: 10rpx;
+	margin-right: 10rpx;
+}
+.flex5-clz {
+	height: 72rpx;
+}
+.tag7-clz {
+	margin-left: 10rpx;
+	width: calc(33.3333333333% - 10rpx - 10rpx) !important;
+	margin-top: 10rpx;
+	margin-bottom: 10rpx;
+	margin-right: 10rpx;
+}
+.container {
+	padding-left: 0rpx;
+	padding-right: 0rpx;
+
+	font-size: 24rpx;
+}
+
+.collect{
+  width:100rpx;
+  height: 100rpx;
+  position: absolute;
+  top: -20rpx;
+  right: -100rpx;
+}

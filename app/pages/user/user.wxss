@@ -1,0 +1,131 @@
+.flex-clz {
+	z-index: 100;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url(https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/user/background.png?versionId=CAEQJhiBgMCgnuLJlBgiIGY3NjE4OTQ0M2ZjZjQ4MzY4NTFlNGEyZjE5ZmE5NGIx);
+	background-position: top right;
+}
+.title-clz {
+	color: #ffffff;
+	font-size: 16rpx;
+	font-family: 黑体;
+}
+.flex2-clz {
+	margin-left: 10rpx;
+	z-index: 100;
+	width: calc(100% - 10rpx - 10rpx) !important;
+	margin-top: 70rpx;
+	margin-bottom: 40rpx;
+  margin-right: 10rpx;
+  height: 150rpx;
+  line-height: 150rpx;
+}
+.image1-clz {
+	flex-shrink: 0;
+	border-bottom-left-radius: 50%;
+	overflow: hidden;
+	width: 150rpx ;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;
+	height: 150rpx ;
+}
+.flex4-clz {
+	margin-left: 10rpx;
+	z-index: 100;
+	color: #ffffff;
+	flex: 1;
+	margin-top: 0rpx;
+	margin-bottom: 0rpx;
+	margin-right: 10rpx;
+}
+.text1-clz {
+	color: #000000;
+	font-family: 黑体;
+  text-align: left;
+  font-size: 35rpx;
+  margin-left: 30rpx;
+}
+.flex6-clz {
+	z-index: 100;
+}
+.text3-clz {
+	font-size: 36rpx;
+}
+.flex8-clz {
+	padding-top: 20rpx;
+	border-bottom-left-radius: 40rpx;
+	z-index: 100;
+	padding-left: 20rpx;
+	padding-bottom: 20rpx;
+	border-top-right-radius: 40rpx;
+	margin-right: 20rpx;
+	margin-left: 20rpx;
+	box-shadow: 2rpx 2rpx 6rpx 2rpx rgba(154, 154, 154, 0.37);
+	overflow: hidden;
+	width: calc(100% - 20rpx - 20rpx) !important;
+	border-top-left-radius: 40rpx;
+	margin-top: 0rpx;
+	border-bottom-right-radius: 40rpx;
+	margin-bottom: 20rpx;
+	padding-right: 20rpx;
+}
+.grid1-item-clz {
+	font-size: 24rpx;
+}
+.grid1-icon-clz {
+	width: 100rpx;
+	height: 100rpx;
+	font-size: calc(100rpx - 8rpx) !important;
+}
+.list-clz {
+	margin-left: 10rpx;
+	border-bottom-left-radius: 12rpx;
+	box-shadow: 5rpx 5rpx 6rpx rgba(31, 31, 31, 0.16);
+	overflow: hidden;
+	width: calc(100% - 10rpx - 10rpx) !important;
+	border-top-left-radius: 12rpx;
+	margin-top: 20rpx;
+	border-top-right-radius: 12rpx;
+	border-bottom-right-radius: 12rpx;
+	margin-bottom: 10rpx;
+	margin-right: 10rpx;
+}
+.container {
+	padding-left: 0rpx;
+	padding-right: 0rpx;
+
+	font-size: 30rpx;
+}
+.container {
+	padding-bottom: 160rpx;
+}
+.user-info-box{
+  display:flex;
+  align-items:center;
+  position:relative;
+  z-index: 1;
+  width: 600rpx;
+  word-break: break-all;
+}
+.user-section {
+  height: 580rpx;
+  position: relative;
+  padding: 100rpx 30rpx 0;
+}
+.portrait{
+  width: 140rpx;
+  height: 140rpx;
+  border:20rpx solid #fff;
+  border-radius: 50%;
+}
+.username{
+  font-size: 35rpx;
+  color: #303133;
+  margin-left: 30rpx;
+  white-space: nowrap;
+}
+.more {
+  font-weight: 700rpx;
+  color: rgb(153, 153, 153);
+}

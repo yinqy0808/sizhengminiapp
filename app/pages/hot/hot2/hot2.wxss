@@ -1,0 +1,38 @@
+.input-clz {
+	font-weight: bold;
+	font-size: 48rpx;
+}
+.text1-clz {
+	margin-left: 24rpx;
+	width: calc(100% - 12px - 5px) !important;
+	font-size: 26rpx;
+	margin-top: -12rpx;
+	margin-bottom: 36rpx;
+	margin-right: 10rpx;
+}
+.text-clz {
+	margin-left: 14rpx;
+	width: calc(100% - 7px - 5px) !important;
+	font-family: 宋体;
+	margin-top: 10rpx;
+	margin-bottom: 10rpx;
+	margin-right: 10rpx;
+}
+.input3-clz {
+	flex-shrink: 0;
+	font-weight: bold;
+	font-size: 40rpx;
+	height: 150rpx !important;
+}
+.container {
+	padding-left: 0px;
+	padding-right: 0px;
+
+	font-size: 24rpx;
+}
+.container {
+	padding-bottom: 160rpx;
+}
+p{
+  background-color: white;
+}

@@ -1,0 +1,9 @@
+{
+	"navigationBarTitleText": "热点6",
+	"navigationBarBackgroundColor": "#ff0a0a",
+	"navigationStyle": "custom",
+	"usingComponents": {
+		"szkt-navbar": "/components/szkt-navbar/szkt-navbar",
+		"szkt-sticky": "/components/szkt-sticky/szkt-sticky"
+	}
+}

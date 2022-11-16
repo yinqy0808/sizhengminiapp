@@ -1,0 +1,212 @@
+<view class="container">
+	<view class="flex szkt-col-24 flex-direction-column tabs-clz">
+		<scroll-view scroll-x scroll-into-view="{{'scroll-' + tabsIndex}}" scroll-left="{{tabsLeft}}" scroll-with-animation class="szkt-tabs text-center solid-bottom justify-center scale-title small-border">
+			<view id="{{'scroll-' + index}}" class="szkt-tab-item  {{index==tabsIndex?'cur text-green':''}}" wx:for="{{tabsDatas}}" wx:for-item="item" wx:for-index="index" data-key="index" data-index="{{index}}" catchtap="changeTabs"> <text wx:if="{{item.icon}}" class="{{item.icon}}"></text> {{item.text}} </view>
+		</scroll-view>
+		<view class="">
+			<view wx:if="{{tabsIndex==0}}" class="flex-sub">
+				<view class="flex flex-wrap szkt-col-24 flex1-clz">
+					<view class="flex szkt-col-23 swiper-clz">
+						<swiper class="swiper swiper-indicator_rect_radius" indicator-color="rgba(51, 51, 51, 0.39)" indicator-active-color="#fff" indicator-dots="true" autoplay interval="3000" circular="true" style="height: 197px">
+							<swiper-item class="szkt-swiper-item">
+								<view class="szkt-swiper-item-wrap">
+									<image src="https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/hot/hot1.jpg?versionId=CAEQJhiBgICEi9PJlBgiIGZjYWVhNDFiM2M2NTRhMzhiZTFkZmY5NDlmNzY3OWNm" class="szkt-swiper-image"></image>
+									<view class="szkt-swiper-item-title"> 总书记的一周 </view>
+								</view>
+							</swiper-item>
+							<swiper-item class="szkt-swiper-item">
+								<view class="szkt-swiper-item-wrap">
+									<image src="https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/hot/hot2.jpg?versionId=CAEQJhiBgIClhNPJlBgiIDFmZDk1NDY5YTVkYTQyOWI4ODM1NGEyZWZjMGU0MTI3" class="szkt-swiper-image"></image>
+									<view class="szkt-swiper-item-title"> 习近平讲述的故事|跨越时空的模范 </view>
+								</view>
+							</swiper-item>
+							<swiper-item class="szkt-swiper-item">
+								<view class="szkt-swiper-item-wrap">
+									<image src="https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/hot/hot3.jpg?versionId=CAEQJhiBgIC3ndPJlBgiIGI1OWVhODBiNGUzMDQwZDNhMGQxNjhmNmUyYWQ1OTg5" class="szkt-swiper-image"></image>
+									<view class="szkt-swiper-item-title"> 百川汇流 天山为证 </view>
+								</view>
+							</swiper-item>
+							<swiper-item class="szkt-swiper-item">
+								<view class="szkt-swiper-item-wrap">
+									<image src="https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/hot/hot4.jpg?versionId=CAEQJhiBgMCBw9LJlBgiIGVlOGU3YTRkZWZhMjQ1YWM5MGUzZDlkMWJlZjk5ZDVl" class="szkt-swiper-image"></image>
+									<view class="szkt-swiper-item-title"> 习近平的山海情 </view>
+								</view>
+							</swiper-item>
+						</swiper>
+					</view>
+					<view class="flex flex-wrap szkt-col-24 flex-direction-column justify-between flex3-clz">
+						<view catchtap="navigateTo" data-type="page" data-url="/pages/hot/hot1/hot1" class="szkt-col-24 szkt-text-md"> 非凡十年|齐鲁大地“走在前、开新局” </view>
+						<view class="flex szkt-col-24">
+							<view style="color: rgba(14, 13, 13, 0.43)" class="szkt-tag sm radius-xs" catchtap="navigateTo" data-type="page" data-url="/pages/hot/hot1/hot1">
+								<text> 人民日报 2022-07-25 </text>
+							</view>
+						</view>
+					</view>
+				</view>
+        <view class="flex flex-wrap szkt-col-24 flex6-clz">
+		<view class="flex flex-wrap szkt-col-24 flex-direction-column justify-between flex9-clz">
+			<view catchtap="navigateTo" data-type="page" data-url="/pages/hot/hot3/hot3" class="szkt-col-24 szkt-text-md"> 习近平：把中国文明历史研究引向深入 增强历史自觉坚定文化自信 </view>
+			<view class="flex szkt-col-24">
+				<view style="color: rgba(14, 13, 13, 0.43)" class="szkt-tag margin-xs xs radius-xs"
+         catchtap="navigateTo" data-type="page" data-url="/pages/hot/hot3/hot3">
+					<text> 《求是》2022年第14期 2022-07-15 </text>
+				</view>
+			</view>
+		</view>
+	</view>
+  <view class="flex flex-wrap szkt-col-24 flex-clz">
+		<view class="flex flex-wrap szkt-col-24 flex-direction-column justify-between flex2-clz">
+			<view catchtap="navigateTo" data-type="page"  data-url="/pages/hot/hot2/hot2" class="szkt-col-24 szkt-text-md"> 千帆竞发海之南 </view>
+			<view class="flex szkt-col-24">
+				<view style="color: rgba(14, 13, 13, 0.43)"
+         class="szkt-tag margin-xs xs radius-xs"
+         catchtap="navigateTo" data-type="page" data-url="/pages/hot/hot2/hot2">
+					<text> 经济日报 2022-07-25 </text>
+				</view>
+			</view>
+		</view>
+	</view>
+	<view class="flex flex-wrap szkt-col-24 flex5-clz">
+		<view class="flex flex-wrap szkt-col-24 flex-direction-column justify-between flex7-clz">
+			<view catchtap="navigateTo" data-type="page" data-url="/pages/hot/hot4/hot4" class="szkt-col-24 szkt-text-md"> 习近平的文化情怀|“你们一针一线绣出来，何其精彩！” </view>
+			<view class="flex szkt-col-24">
+				<view style="color: rgba(14, 13, 13, 0.43)" class="szkt-tag margin-xs xs radius-xs"
+         catchtap="navigateTo" data-type="page" data-url="/pages/hot/hot4/hot4">
+					<text> 新华社 2022-07-24 </text>
+				</view>
+			</view>
+		</view>
+	</view>
+	<view class="flex flex-wrap szkt-col-24 flex15-clz">
+		<view class="flex flex-wrap szkt-col-24 flex-direction-column justify-between flex18-clz">
+			<view catchtap="navigateTo" data-type="page" data-url="/pages/hot/hot5/hot5" class="szkt-col-24 szkt-text-md"> 共同富裕是中国式现代化必由之路 </view>
+			<view class="flex szkt-col-24">
+				<view style="color: rgba(14, 13, 13, 0.43)" class="szkt-tag margin-xs xs radius-xs"
+         catchtap="navigateTo" data-type="page" data-url="/pages/hot/hot5/hot5">
+					<text> 上观新闻 2022-07-26 </text>
+				</view>
+			</view>
+		</view>
+	</view>
+	<view class="flex flex-wrap szkt-col-24 flex11-clz">
+		<view class="flex flex-wrap szkt-col-24 flex-direction-column justify-between flex14-clz">
+			<view catchtap="navigateTo" data-type="page" data-url="/pages/hot/hot6/hot6" class="szkt-col-24 szkt-text-md"> 十三届全国人大五次会议在京闭幕 </view>
+			<view class="flex szkt-col-24">
+				<view style="color: rgba(14, 13, 13, 0.43)" class="szkt-tag margin-xs xs radius-xs"
+         catchtap="navigateTo" data-type="page" data-url="/pages/hot/hot6/hot6">
+         <text> “学习强国”平台 2022-03-35 </text>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>
+			<view wx:if="{{tabsIndex==1}}" class="flex-sub">
+        <view class="flex flex-wrap szkt-col-24 flex31-clz">
+					<view class="flex flex-wrap szkt-col-24 flex-direction-column justify-between flex33-clz">
+						<view catchtap="navigateTo" data-type="page" data-url="/pages/hot/hot22/hot22" class="szkt-col-24 szkt-text-md"> 2022年7月25日新冠病毒疫苗接种情况 </view>
+						<view class="flex szkt-col-24">
+							<view style="color: rgba(14, 13, 13, 0.43)" class="szkt-tag margin-xs xs radius-xs"
+         catchtap="navigateTo" data-type="page" data-url="/pages/hot/hot22/hot22">
+								<text> 国家卫生健康委 2022-07-25 </text>
+							</view>
+						</view>
+					</view>
+				</view>
+        <view class="flex flex-wrap szkt-col-24 flex-clz">
+		<view class="flex flex-wrap szkt-col-24 flex-direction-column justify-between flex2-clz">
+			<view catchtap="navigateTo" data-type="page"  data-url="/pages/hot/hot2/hot2" class="szkt-col-24 szkt-text-md"> 千帆竞发海之南 </view>
+			<view class="flex szkt-col-24">
+				<view style="color: rgba(14, 13, 13, 0.43)"
+         class="szkt-tag margin-xs xs radius-xs"
+         catchtap="navigateTo" data-type="page" data-url="/pages/hot/hot2/hot2">
+					<text> 经济日报 2022-07-25 </text>
+				</view>
+			</view>
+		</view>
+	</view>
+  <view class="flex flex-wrap szkt-col-24 flex11-clz">
+		<view class="flex flex-wrap szkt-col-24 flex-direction-column justify-between flex14-clz">
+			<view catchtap="navigateTo" data-type="page" data-url="/pages/hot/hot6/hot6" class="szkt-col-24 szkt-text-md"> 十三届全国人大五次会议在京闭幕 </view>
+			<view class="flex szkt-col-24">
+				<view style="color: rgba(14, 13, 13, 0.43)" class="szkt-tag margin-xs xs radius-xs"
+         catchtap="navigateTo" data-type="page" data-url="/pages/hot/hot6/hot6">
+         <text> “学习强国”平台 2022-03-35 </text>
+				</view>
+			</view>
+		</view>
+	</view>	
+			</view>
+			<view wx:if="{{tabsIndex==2}}" class="flex-sub">
+        <view class="flex flex-wrap szkt-col-24 flex27-clz">
+					<image src="https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/hot/szkt.jpg?versionId=CAEQJhiBgMCckdLJlBgiIDdhZjg1ZmZkMzFlZTRmNTg5ODA5YjUyZTk5MzdiNDY0" class="response szkt-col-8 image14-clz" mode="widthFix"></image>
+					<view class="flex flex-wrap szkt-col-16 flex-direction-column justify-between flex29-clz">
+						<view catchtap="navigateTo" data-type="page" data-url="/pages/hot/hot21/hot21" class="szkt-col-24 szkt-text-md"> 习近平：坚持用马克思主义及其中国化创新理论武装全党 </view>
+						<view class="flex szkt-col-24">
+							<view style="color: rgba(14, 13, 13, 0.43)" class="szkt-tag margin-xs xs radius-xs"
+         catchtap="navigateTo" data-type="page" data-url="/pages/hot/hot21/hot21">
+								<text> 《求是》2021年第22期 2021-11-15 </text>
+							</view>
+						</view>
+					</view>
+				</view>
+        <view class="flex flex-wrap szkt-col-24 flex15-clz">
+		<view class="flex flex-wrap szkt-col-24 flex-direction-column justify-between flex18-clz">
+			<view catchtap="navigateTo" data-type="page" data-url="/pages/hot/hot5/hot5" class="szkt-col-24 szkt-text-md"> 共同富裕是中国式现代化必由之路 </view>
+			<view class="flex szkt-col-24">
+				<view style="color: rgba(14, 13, 13, 0.43)" class="szkt-tag margin-xs xs radius-xs"
+         catchtap="navigateTo" data-type="page" data-url="/pages/hot/hot5/hot5">
+					<text> 上观新闻 2022-07-26 </text>
+				</view>
+			</view>
+		</view>
+	</view>
+  <view class="flex flex-wrap szkt-col-24 flex6-clz">
+		<view class="flex flex-wrap szkt-col-24 flex-direction-column justify-between flex9-clz">
+			<view catchtap="navigateTo" data-type="page" data-url="/pages/hot/hot3/hot3" class="szkt-col-24 szkt-text-md"> 习近平：把中国文明历史研究引向深入 增强历史自觉坚定文化自信 </view>
+			<view class="flex szkt-col-24">
+				<view style="color: rgba(14, 13, 13, 0.43)" class="szkt-tag margin-xs xs radius-xs"
+         catchtap="navigateTo" data-type="page" data-url="/pages/hot/hot3/hot3">
+					<text> 《求是》2022年第14期 2022-07-15 </text>
+				</view>
+			</view>
+		</view>
+	</view>
+  <view class="flex flex-wrap szkt-col-24 flex5-clz">
+		<view class="flex flex-wrap szkt-col-24 flex-direction-column justify-between flex7-clz">
+			<view catchtap="navigateTo" data-type="page" data-url="/pages/hot/hot4/hot4" class="szkt-col-24 szkt-text-md"> 习近平的文化情怀|“你们一针一线绣出来，何其精彩！” </view>
+			<view class="flex szkt-col-24">
+				<view style="color: rgba(14, 13, 13, 0.43)" class="szkt-tag margin-xs xs radius-xs"
+         catchtap="navigateTo" data-type="page" data-url="/pages/hot/hot4/hot4">
+					<text> 新华社 2022-07-24 </text>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>
+			<view wx:if="{{tabsIndex==3}}" class="flex-sub">
+        <view class="flex flex-wrap szkt-col-24 flex11-clz">
+		<view class="flex flex-wrap szkt-col-24 flex-direction-column justify-between flex14-clz">
+			<view catchtap="navigateTo" data-type="page" data-url="/pages/hot/hot6/hot6" class="szkt-col-24 szkt-text-md"> 十三届全国人大五次会议在京闭幕 </view>
+			<view class="flex szkt-col-24">
+				<view style="color: rgba(14, 13, 13, 0.43)" class="szkt-tag margin-xs xs radius-xs"
+         catchtap="navigateTo" data-type="page" data-url="/pages/hot/hot6/hot6">
+         <text> “学习强国”平台 2022-03-35 </text>
+				</view>
+			</view>
+		</view>
+	</view>
+  <view class="flex flex-wrap szkt-col-24 flex1-clz">
+					<view class="flex flex-wrap szkt-col-24 flex-direction-column justify-between flex3-clz">
+						<view catchtap="navigateTo" data-type="page" data-url="/pages/hot/hot1/hot1" class="szkt-col-24 szkt-text-md"> 非凡十年|齐鲁大地“走在前、开新局” </view>
+						<view class="flex szkt-col-24">
+							<view style="color: rgba(14, 13, 13, 0.43)" class="szkt-tag sm radius-xs" catchtap="navigateTo" data-type="page" data-url="/pages/hot/hot1/hot1">
+								<text> 人民日报 2022-07-25 </text>
+							</view>
+						</view>
+					</view>
+				</view>
+       </view>
+		</view>
+	</view>
+	<view class="clearfix"></view>
+</view>

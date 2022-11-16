@@ -1,0 +1,101 @@
+<view class="container">
+	<view class="flex flex-wrap szkt-col-24 flex-direction-column flex1-clz">
+		<view class="flex flex-wrap szkt-col-24 flex-direction-column flex-clz">
+    <button class=" flex flex2-clz"bindtap="toLogin" style="background: initial;" >
+      <image class="image1-clz" style="border:5rpx solid rgb(255, 255, 255);" src='https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/user/user.png?versionId=CAEQJhiBgIC91.HJlBgiIDk3MjNhZjRmNDFiZDRkODBhZjZlMmYwODg2MzA3MjY2'  wx:if="{{!login_status}}"></image>
+      <view class="info-box" style="font-weight: 800;">
+        <text class="text1-clz " style="font-weight: 1000; font-size: 36rpx;" wx:if="{{!login_status}}">点击登录</text>
+      </view>
+      <image class="image1-clz" src='{{userInfo.avatarUrl}}'  wx:if="{{login_status}}"></image>
+      <view class="info-box">
+        <text class="text1-clz " style="font-size: 45rpx;" wx:if="{{login_status}}">{{userInfo.nickName}}</text>
+      </view>
+    </button>     
+			<view class="flex flex-wrap szkt-col-24 flex-direction-column white flex8-clz">
+				<view class="szkt-title flex szkt-col-24">
+					<view style="font-weight: 600; font-size: 32rpx;"> 个人中心 </view>
+				</view>
+				<view class="flex szkt-col-24">
+					<view class="szkt-grid col-3">
+						<view class="szkt-grid-item">
+							<navigator class="szkt-grid-inner" url="../user/collect/collect">
+								<view class="szkt-grid-icon szkt-avatar radius-xl" >
+									<image mode="aspectFit" class="szkt-avatar-img radius-xl" src="https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/user/collect.png?versionId=CAEQJhiBgICQzeHJlBgiIDVhMThiYzk3NDRkZjQ3OTRhZGI1YTUzOWEzNzEwZWI3"></image>
+								</view>
+                <view class="szkt-grid-title" style="margin-top: 20rpx;"> 收藏 </view>
+
+							</navigator>
+						</view>
+						<view bindtap="goNext2" class="szkt-grid-item">
+							<view class="szkt-grid-inner">
+								<view class="szkt-grid-icon szkt-avatar radius-xl">
+									<image mode="aspectFit"
+                  class="szkt-avatar-img radius-xl" src="https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/user/hotpaper.png?versionId=CAEQJhiBgMDbzOHJlBgiIGU3MjRmNjA0YTViZjQyOGZhODBkYTNlNmQ1YTkzMzA2"></image>
+								</view>
+								<view class="szkt-grid-title " style="margin-top: 20rpx;" > 热点文章 </view>
+							</view>
+						</view>
+						<view bindtap="goNext1" class="szkt-grid-item">
+							<view class="szkt-grid-inner">
+								<view class="szkt-grid-icon szkt-avatar radius-xl">
+									<image mode="aspectFit" class="szkt-avatar-img radius-xl" src="https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/user/video.png?versionId=CAEQJhiCgIDMu.HJlBgiIDM5ZjVjZjFiZDJhNjRhMzhiYzFkZGYyZjJkMmYxZDQx"></image>
+								</view>
+								<view class="szkt-grid-title" style="margin-top: 20rpx;"> 观看视频 </view>
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+	<view class="flex szkt-col-24 list-clz">
+		<view class="szkt-list small">
+			<button  bindtap="goNext1"  class="szkt-item col-100 row solid-bottom list-item-clz" >
+				<view class="szkt-avatar radius">
+					<image mode="aspectFit" class="szkt-avatar-img radius" src="https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/user/videolearning.png?versionId=CAEQJhiBgIDezOHJlBgiIDgzMTdmY2FiOGJkZTQzNWQ4MDYwNjVlZWJiMDhiN2Jl"></image>
+				</view>
+				<view  class="content">
+					<view class="title"> 视频学习 </view>
+				</view>
+        <text class="more"> > </text>
+			</button >
+			<button bindtap="goNext2"  class="szkt-item col-100 row solid-bottom list-item-clz" >
+				<view class="szkt-avatar radius">
+					<image mode="aspectFit" class="szkt-avatar-img radius" src="https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/user/readpaper.png?versionId=CAEQJhiBgIDdzOHJlBgiIDQ0NmEyN2M4ZGNlMDQzYWU5Y2JmZWM4NDE0MzlkNTAw"></image>
+				</view>
+				<view class="content">
+					<view class="title"> 阅读新闻 </view>
+				</view>
+        <text class="more"> > </text>
+			</button >
+			<button bindtap="goNext1"  class="szkt-item col-100 row solid-bottom list-item-clz" >
+				<view class="szkt-avatar radius">
+					<image mode="aspectFit" class="szkt-avatar-img radius" src="https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/user/sharevideo.png?versionId=CAEQJhiBgIDjzOHJlBgiIDFlOThlYzAzMzZlZTQyOWFhNTJjNWJiMWRkZWUyOTE2"></image>
+				</view>
+				<view class="content">
+					<view class="title"> 分享视频 </view>
+				</view>
+        <text class="more"> > </text>
+			</button >
+			<button bindtap="goNext2" class="szkt-item col-100 row solid-bottom list-item-clz">
+				<view class="szkt-avatar radius">
+					<image mode="aspectFit" class="szkt-avatar-img radius" src="https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/user/sharepaper.png?versionId=CAEQJhiBgMDfzOHJlBgiIDE5NmUyYjA0YmQxODQyOTJhNzMwMDY3Yjg5NGJkYzI0"></image>
+				</view>
+				<view class="content">
+					<view class="title"> 分享文章 </view>
+				</view>
+        <text class="more"> > </text>
+			</button >
+      <button catchtap="navigateTo" data-type="page" data-url="/pages/hot" open-type="feedback" class="szkt-item col-100 row solid-bottom list-item-clz" >
+				<view class="szkt-avatar radius">
+					<image mode="aspectFit" class="szkt-avatar-img radius" src="https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/user/suggestion.png?versionId=CAEQJhiBgMDJu.HJlBgiIGRiM2ExZDlkMTMxZDQ3MGFiNDZjYjcxMDcwMzNkMTg5"></image>
+				</view>
+				<view class="content">
+					<view class="title" > 意见反馈</view>
+				</view>
+        <text class="more"> > </text>
+			</button>
+		</view>
+	</view>
+	<view class="clearfix"></view>
+</view>

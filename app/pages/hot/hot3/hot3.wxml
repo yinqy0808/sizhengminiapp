@@ -1,0 +1,67 @@
+<view class="container">
+	
+  <szkt-navbar bgColor="red" isBack="{{true}}">
+		<view slot="backText"> 返回 </view>
+		<view slot="content"> 详情 </view>
+	</szkt-navbar>
+  <view style="height: 120rpx;"></view>
+	<view class="szkt-form-item szkt-col-24 input-clz">
+		<view class="title width-auto"> 习近平：把中国文明历史研究引向深入 增强历史自觉坚定文化自信 </view>
+		<view class="input">
+			<input class="flex1" name="input" comfirm-type="done" type="text" value="{{input}}" data-key="input" bindchange="changeValue" placeholder="" />
+		</view>
+	</view>
+  <view style="height: 80rpx;"></view>
+	<rich-text nodes="{{text1}}" class="szkt-col-24 text1-clz text-gray"></rich-text>
+	<rich-text nodes="{{text}}" class="szkt-col-24 text-clz"></rich-text>
+	<view class="szkt-form-item szkt-col-11">
+		<view class="title width-auto"> 阅读 </view>
+		<view class="input">
+			<input class="flex1" name="input1" comfirm-type="done" type="text" value="{{input1}}" data-key="input1" bindchange="changeValue" placeholder="1,516,666" />
+		</view>
+	</view>
+	<view class="szkt-form-item szkt-col-11">
+		<view class="title width-auto"> 点赞 </view>
+		<view class="input">
+			<text class="szkt-icon-appreciate" style="color: #a5ada9"></text>
+			<input class="flex1" name="input2" comfirm-type="done" type="text" value="{{input2}}" data-key="input2" bindchange="changeValue" placeholder="    81,666" />
+		</view>
+	</view>
+	<view class="szkt-form-item szkt-col-24 input3-clz">
+		<view class="title text-red width-auto"> 评论 </view>
+		<view class="input">
+			<input class="flex1" name="input3" comfirm-type="done" type="text" value="{{input3}}" data-key="input3" bindchange="changeValue" placeholder="" />
+			<text class="szkt-icon-writefill" style="color: #151716"></text>
+		</view>
+	</view>
+	<view class="flex flex-wrap szkt-col-24 flex-clz">
+		<view class="flex szkt-col-4 avatar-clz">
+			<view class="szkt-avatar radius bg-none">
+				<image mode="aspectFit" class="szkt-avatar-img radius" src="https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/hot/user.png?versionId=CAEQJhiBgICUkdLJlBgiIDZkMWY4ZDc4ZjhmNzQ2YWNiODQ1MWNhMTMwOTYxZWZl"></image>
+			</view>
+		</view>
+		<view class="flex flex-wrap szkt-col-20 flex-direction-column flex1-clz">
+			<view class="flex flex-wrap szkt-col-24 justify-between flex3-clz">
+				<view class="szkt-col-0 szkt-text-md"> 用户1 </view>
+				<view class="flex szkt-col-0">
+					<view class="szkt-tag flex-direction-row-reverse xs radius">
+						<text  class="icon szkt-icon-appreciate"></text>
+						<text> 1000 </text>
+					</view>
+				</view>
+			</view>
+			<view class="szkt-col-24"> 讲好中华文明故事，增强中华民族自信 </view>
+			<view class="flex szkt-col-24 justify-between">
+				<view class="szkt-tag xs radius">
+					<text  class="icon szkt-icon-communityfill"></text>
+					<text> 12回复 </text>
+				</view>
+				<view class="szkt-tag xs radius">
+					<text  class="icon szkt-icon-timefill"></text>
+					<text> 2022-7-26 </text>
+				</view>
+			</view>
+		</view>
+	</view>
+	<view class="clearfix"></view>
+</view>

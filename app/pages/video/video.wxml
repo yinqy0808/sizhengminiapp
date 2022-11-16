@@ -1,0 +1,189 @@
+<view class="container">	
+	<view class="flex flex-clz">
+		<view>
+			<view class="szkt-tabs text-center solid-bottom justify-center scale-title small-border">
+				<view class="szkt-tab-item  {{index==tabsIndex?'cur text-green':''}}" wx:for="{{tabsDatas}}" wx:for-item="item" wx:for-index="index" data-key="index" data-index="{{index}}" catchtap="changeTabs"> <text wx:if="{{item.icon}}" class="{{item.icon}}"></text> {{item.text}} </view>
+			</view>
+			<view class="">
+				<view wx:if="{{tabsIndex==0}}" class="flex-sub">
+					<view class="flex flex-wrap szkt-col-24 flex5-clz"
+          catchtap="navigateTo" data-type="page" data-url="pages/video/video1/video1">
+						<image src="https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/video/1.jpg?versionId=CAEQJhiBgICbhOvflBgiIGM2ZTJiM2M3NTE0MjRhZGY5OGFkODYxNjRjNWU0OGRl" class="image4-clz" style="height: 160rpx !important; width: 110%" mode="aspectFit"></image>
+						<view class="flex flex-wrap szkt-col-16 flex-direction-column justify-between flex8-clz">
+							<view catchtap="navigateTo" data-type="page" data-url="pages/video/video1/video1" class="szkt-col-24 szkt-text-md"> “伟大盛世，青春有我”——党政学习 </view>
+							<view class="flex szkt-col-24">
+								<view class="szkt-tag margin-xs xs radius-xs">
+									<text> 热度 1908 </text>
+								</view>
+							</view>
+						</view>
+					</view>
+					<view class="flex flex-wrap szkt-col-24 flex21-clz"
+          catchtap="navigateTo" data-type="page" data-url="/pages/video/video2/video2">
+						<image src="https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/video/video/bwcx.png?versionId=CAEQJhiBgIDz.frflBgiIDU2ODY5MjI2NWY4MzRjMDhiNWEwMGJjNmUxZTM0MWY4" class="szkt-image szkt-col-8 image12-clz" style="height:160rpx !important; width: 110%" mode="aspectFit"></image>
+						<view class="flex flex-wrap szkt-col-16 flex-direction-column justify-between flex24-clz">
+							<view catchtap="navigateTo" data-type="page" data-url="/pages/video/video2/video2" class="szkt-col-24 szkt-text-md"> “光影致英雄，初心担使命”主题党日活动 </view>
+							<view class="flex szkt-col-24">
+								<view class="szkt-tag margin-xs xs radius-xs">
+									<text> 热度 1534 </text>
+								</view>
+							</view>
+						</view>
+					</view>
+					<view class="flex flex-wrap szkt-col-24 flex19-clz"
+          catchtap="navigateTo" data-type="page" data-url="/pages/video/video3/video3">
+						<image src="https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/video/video/ljsm.png?versionId=CAEQJhiBgIDt9_rflBgiIDkwYTJlMGY4NDY3ODRlZjFiNjAyOGFjMWFmYTZhNDBh" class="szkt-image szkt-col-8 image11-clz" style="height: 160rpx  !important; width: 110%" mode="aspectFit"></image>
+						<view class="flex flex-wrap szkt-col-16 flex-direction-column justify-between flex22-clz">
+							<view catchtap="navigateTo" data-type="page" data-url="/pages/video/video3/video3" class="szkt-col-24 szkt-text-md"> “追忆峥嵘映初心，领航时代担使命”主题党日活动 </view>
+							<view class="flex szkt-col-24">
+								<view class="szkt-tag margin-xs xs radius-xs">
+									<text> 热度 1024 </text>
+								</view>
+							</view>
+						</view>
+					</view>
+					<view class="flex flex-wrap szkt-col-24 flex17-clz"
+          catchtap="navigateTo" data-type="page" data-url="/pages/video/video4/video4">
+						<image src="https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/video/video/jgs.png?versionId=CAEQJhiBgMDu.frflBgiIGJlMWYyMzdmYmVhYzRmNjJhMjc3ZjQxZTIxN2IxMDJh" class="szkt-image szkt-col-8 image10-clz" style="height: 160rpx  !important; width: 110%" mode="aspectFit"></image>
+						<view class="flex flex-wrap szkt-col-16 flex-direction-column justify-between flex20-clz">
+							<view catchtap="navigateTo" data-type="page" data-url="/pages/video/video4/video4" class="szkt-col-24 szkt-text-md"> “百年征程波澜壮阔，百年初心历久弥坚”传承井冈山精神 </view>
+							<view class="flex szkt-col-24">
+								<view class="szkt-tag margin-xs xs radius-xs">
+									<text> 热度 693 </text>
+								</view>
+							</view>
+						</view>
+					</view>
+					<view class="flex flex-wrap szkt-col-24 flex15-clz"
+          catchtap="navigateTo" data-type="page" data-url="/pages/video/video5/video5">
+						<image src="https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/video/video/xzc.png?versionId=CAEQJhiBgMDk.frflBgiIDYyODExNDMxMjY0ODRmNDE4ODJlY2NjNjdjZGY5YzQ2" class="szkt-image szkt-col-8 image9-clz" style="height:160rpx  !important; width: 110%" mode="aspectFit"></image>
+						<view class="flex flex-wrap szkt-col-16 flex-direction-column justify-between flex18-clz">
+							<view catchtap="navigateTo" data-type="page" data-url="/pages/video/video5/video5" class="szkt-col-24 szkt-text-md"> “浴血百年路，启航新征程” </view>
+							<view class="flex szkt-col-24">
+								<view class="szkt-tag margin-xs xs radius-xs">
+									<text> 热度 867 </text>
+								</view>
+							</view>
+						</view>
+					</view>
+					<view class="flex flex-wrap szkt-col-24 flex3-clz"
+          catchtap="navigateTo" data-type="page" data-url="/pages/video/video6/video6">
+						<image src="https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/video/video/bnds.png?versionId=CAEQJhiBgMDa.frflBgiIDI1ODQ3NDA4YmRmYTRlMzNhMTQ4YmZkZWNmNDQxZTM5" class="szkt-image szkt-col-8 image3-clz" style="height:160rpx !important; width: 110%" mode="aspectFit"></image>
+						<view class="flex flex-wrap szkt-col-16 flex-direction-column justify-between flex6-clz">
+							<view catchtap="navigateTo" data-type="page" data-url="/pages/video/video6/video6" class="szkt-col-24 szkt-text-md"> “学好百年党史，凝聚奋斗伟力” </view>
+							<view class="flex szkt-col-24">
+								<view class="szkt-tag margin-xs xs radius-xs">
+									<text> 热度 993 </text>
+								</view>
+							</view>
+						</view>
+					</view>
+					<view class="flex flex-wrap szkt-col-24 flex2-clz"
+          catchtap="navigateTo" data-type="page" data-url="/pages/video/video7/video7">
+						<image src="https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/video/video/ds.png?versionId=CAEQJhiBgMDZ.frflBgiIGEwMTI4NmVlYWRiYzQxMGZiYzgyN2NlNTM5ZDAyNTRi" class="szkt-image szkt-col-8 image2-clz" style="height:160rpx !important; width: 110%" mode="aspectFit"></image>
+						<view class="flex flex-wrap szkt-col-16 flex-direction-column justify-between flex4-clz">
+							<view catchtap="navigateTo" data-type="page" data-url="/pages/video/video7/video7" class="szkt-col-24 szkt-text-md"> “知行合一学党史，赓续为民担使命”</view>
+							<view class="flex szkt-col-24">
+								<view class="szkt-tag margin-xs xs radius-xs">
+									<text> 热度 896 </text>
+								</view>
+							</view>
+						</view>
+					</view>
+				</view>
+				<view wx:if="{{tabsIndex==1}}" class="flex-sub">
+					<view class="flex flex-wrap szkt-col-24 flex1-clz"
+          catchtap="navigateTo" data-type="page" data-url="/pages/video/video1/video1">
+						<image src="https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/video/video/1.jpg?versionId=CAEQJhiBgMCG.vrflBgiIDBmZWFmYjcxYWRlNzRlOTRhNmUzMWNlNjBiM2NjOWJk" class="szkt-image szkt-col-8 image5-clz" style="height: 160rpx !important; width: 110%" mode="aspectFit"></image>
+						<view class="flex flex-wrap szkt-col-16 flex-direction-column justify-between flex13-clz">
+							<view catchtap="navigateTo" data-type="page" data-url="/pages/video/video1/video1" class="szkt-col-24 szkt-text-md"> ”伟大盛世，青春有我“——党政学习 </view>
+							<view class="flex szkt-col-24">
+								<view class="szkt-tag margin-xs xs radius-xs">
+									<text> 热度 1908 </text>
+								</view>
+							</view>
+						</view>
+					</view>
+				</view>
+				<view wx:if="{{tabsIndex==2}}" class="flex-sub">
+					<view class="flex flex-wrap szkt-col-24 flex26-clz"
+          catchtap="navigateTo" data-type="page" data-url="/pages/video/video2/video2">
+						<image src="https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/video/video/bwcx.png?versionId=CAEQJhiBgIDz.frflBgiIDU2ODY5MjI2NWY4MzRjMDhiNWEwMGJjNmUxZTM0MWY4" class="szkt-image szkt-col-8 image14-clz" style="height: 160rpx !important; width: 110%" mode="aspectFit"></image>
+						<view class="flex flex-wrap szkt-col-16 flex-direction-column justify-between flex29-clz">
+							<view catchtap="navigateTo" data-type="page" data-url="/pages/video/video2/video2" class="szkt-col-24 szkt-text-md"> ”光影致英雄，初心担使命“主题党日活动 </view>
+							<view class="flex szkt-col-24">
+								<view class="szkt-tag margin-xs xs radius-xs">
+									<text> 热度 1534 </text>
+								</view>
+							</view>
+						</view>
+					</view>
+					<view class="flex flex-wrap szkt-col-24 flex23-clz"
+          catchtap="navigateTo" data-type="page" data-url="/pages/video/video3/video3">
+						<image src="https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/video/video/ljsm.png?versionId=CAEQJhiBgIDt9_rflBgiIDkwYTJlMGY4NDY3ODRlZjFiNjAyOGFjMWFmYTZhNDBh" class="szkt-image szkt-col-8 image13-clz" style="height: 160rpx !important; width: 110%" mode="aspectFit"></image>
+						<view class="flex flex-wrap szkt-col-16 flex-direction-column justify-between flex27-clz">
+							<view catchtap="navigateTo" data-type="page" data-url="/pages/video/video3/video3" class="szkt-col-24 szkt-text-md"> “追忆峥嵘映初心，领航时代担使命”主题党日活动 </view>
+							<view class="flex szkt-col-24">
+								<view class="szkt-tag margin-xs xs radius-xs">
+									<text> 热度 1024 </text>
+								</view>
+							</view>
+						</view>
+					</view>
+				</view>
+				<view wx:if="{{tabsIndex==3}}" class="flex-sub">
+					<view class="flex flex-wrap szkt-col-24 flex14-clz"
+          catchtap="navigateTo" data-type="page" data-url="/pages/video/video4/video4">
+						<image src="https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/video/video/jgs.png?versionId=CAEQJhiBgMDu.frflBgiIGJlMWYyMzdmYmVhYzRmNjJhMjc3ZjQxZTIxN2IxMDJh" class="szkt-image szkt-col-8 image8-clz" style="height: 160rpx !important; width: 110%" mode="aspectFit"></image>
+						<view class="flex flex-wrap szkt-col-16 flex-direction-column justify-between flex25-clz">
+							<view catchtap="navigateTo" data-type="page" data-url="/pages/video/video4/video4" class="szkt-col-24 szkt-text-md"> ”百年征程波澜壮阔，百年初心历久弥坚“传承井冈山精神 </view>
+							<view class="flex szkt-col-24">
+								<view class="szkt-tag margin-xs xs radius-xs">
+									<text> 热度 693 </text>
+								</view>
+							</view>
+						</view>
+					</view>
+					<view class="flex flex-wrap szkt-col-24 flex9-clz"
+          catchtap="navigateTo" data-type="page" data-url="/pages/video/video5/video5">
+						<image src="https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/video/video/xzc.png?versionId=CAEQJhiBgMDk.frflBgiIDYyODExNDMxMjY0ODRmNDE4ODJlY2NjNjdjZGY5YzQ2" class="szkt-image szkt-col-8 image6-clz" style="height: 160rpx  !important; width: 110%" mode="aspectFit"></image>
+						<view class="flex flex-wrap szkt-col-16 flex-direction-column justify-between flex28-clz">
+							<view catchtap="navigateTo" data-type="page" data-url="/pages/video/video5/video5" class="szkt-col-24 szkt-text-md"> ”浴血百年路，启航新征程“ </view>
+							<view class="flex szkt-col-24">
+								<view class="szkt-tag margin-xs xs radius-xs">
+									<text> 热度 867 </text>
+								</view>
+							</view>
+						</view>
+					</view>
+					<view class="flex flex-wrap szkt-col-24 flex7-clz"
+          catchtap="navigateTo" data-type="page" data-url="/pages/video/video6/video6">
+						<image src="https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/video/video/bnds.png?versionId=CAEQJhiBgMDa.frflBgiIDI1ODQ3NDA4YmRmYTRlMzNhMTQ4YmZkZWNmNDQxZTM5" class="szkt-image szkt-col-8 image1-clz" style="height:160rpx !important; width: 110%" mode="aspectFit"></image>
+						<view class="flex flex-wrap szkt-col-16 flex-direction-column justify-between flex11-clz">
+							<view catchtap="navigateTo" data-type="page" data-url="/pages/video/video6/video6" class="szkt-col-24 szkt-text-md"> ”学好百年党史，凝聚奋斗伟力“ </view>
+							<view class="flex szkt-col-24">
+								<view class="szkt-tag margin-xs xs radius-xs">
+									<text> 热度 993 </text>
+								</view>
+							</view>
+						</view>
+					</view>
+					<view class="flex flex-wrap szkt-col-24 flex10-clz"
+          catchtap="navigateTo" data-type="page" data-url="/pages/video/video7/video7">
+						<image src="https://red-ideological-and-political-classroom.oss-cn-beijing.aliyuncs.com/video/video/ds.png?versionId=CAEQJhiBgMDZ.frflBgiIGEwMTI4NmVlYWRiYzQxMGZiYzgyN2NlNTM5ZDAyNTRi" class="szkt-image szkt-col-8 image7-clz" style="height: 160rpx !important; width: 110%" mode="aspectFit"></image>
+						<view class="flex flex-wrap szkt-col-16 flex-direction-column justify-between flex16-clz">
+							<view catchtap="navigateTo" data-type="page" data-url="/pages/video/video7/video7" class="szkt-col-24 szkt-text-md"> ”知行合一学党史，赓续为民担使命“ </view>
+							<view class="flex szkt-col-24">
+								<view class="szkt-tag margin-xs xs radius-xs">
+									<text> 热度 896 </text>
+								</view>
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+	
+	<view class="clearfix"></view>
+</view>

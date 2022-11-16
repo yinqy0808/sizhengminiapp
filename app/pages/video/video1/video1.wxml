@@ -1,0 +1,71 @@
+<view class="container">
+	<szkt-navbar bgColor="white">
+		<view slot="content">
+			<view class="flex align-center flex-nowrap szkt-col-24">
+				<szkt-navbar bgColor="red" isBack="{{true}}">
+					<view slot="backText"> 返回 </view>
+					<view slot="content"> 视频详情 </view>
+				</szkt-navbar>
+			</view>
+		</view>
+	</szkt-navbar>
+	<view class="flex flex-wrap szkt-col-24 flex-direction-column flex-clz">
+		<view class="flex szkt-col-24">
+			<video src="http://mp42.china.com.cn/video_tide/video/2022/5/4/2022541651665698245_455.mp4" style="width: 105%; height: 200px" title="伟大盛世 青春有我" ></video>
+		</view>
+	</view>
+	<view class="flex flex-wrap szkt-col-24 flex-direction-column flex1-clz">
+		<view class="flex szkt-col-5 justify-between flex-wrap tag1-clz">
+		</view>
+		<view class="flex szkt-col-5 justify-between flex-wrap tag3-clz">
+			<view style="color: #060505" class="szkt-tag padding-lr-sm not-border xs radius-sm">
+				<text> 视频简介 </text>
+			</view>
+		</view>
+		<view class="flex szkt-col-21 flex-wrap flex3-clz">
+			<view class="szkt-col-22 text-clz szkt-text-sm"> “伟大盛世，青春有我”——党政学习系列视频。未来属于青年，希望寄予青年。 在庆祝中国共产党成立100周年大会上，习近平总书记发表重要讲话，深情寄语新时代的中国青年 </view>
+		</view>
+	</view>
+	<view class="flex flex-wrap szkt-col-24 flex2-clz">
+		<view class="flex flex-wrap szkt-col-24 flex-direction-column flex7-clz">
+			<rich-text nodes="{{text1}}" class="szkt-col-4 text1-clz szkt-text-xs"></rich-text>
+			<view class="flex szkt-col-12 flex-direction-column flex-nowrap flex5-clz">
+			</view>
+			<view class="flex flex-wrap szkt-col-12 flex-direction-column justify-start items-stretch flex9-clz">
+				<view class="flex szkt-col-8 tag9-clz">
+					<view class="szkt-tag flex-direction-row-reverse xs radius">
+            <image class="collect" bindtap='focusFavoriteTab'  wx:if="{{!status}}" src="https://i.loli.net/2021/08/17/GfXIvoW7PuUmiw2.png"  data-itemId="bbb"></image>
+            <image class="collect" bindtap='focusFavoriteTab'  wx:if="{{status}}" src="https://i.loli.net/2021/08/17/XdVuspHQPxmScW3.png"  data-itemId="bbb"></image>
+						<text>收藏</text>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+	<view class="flex flex-wrap szkt-col-24 flex-direction-column flex8-clz">
+		<view class="flex flex-wrap szkt-col-24 flex-direction-column flex4-clz">
+			<view class="flex flex-wrap szkt-col-24 justify-between flex6-clz">
+				<view class="szkt-col-0 text2-clz szkt-text-md"> 微信用户12304 </view>
+				<view class="flex szkt-col-0 tag5-clz">
+					<view class="szkt-tag flex-direction-row-reverse xs radius">
+						<text class="icon szkt-icon-appreciate"></text>
+						<text> 1002 </text>
+					</view>
+				</view>
+			</view>
+			<view class="flex szkt-col-24 justify-between tag2-clz">
+				<view class="szkt-tag xs radius">
+					<text class="icon szkt-icon-communityfill"></text>
+					<text> 12回复 </text>
+				</view>
+				<view class="szkt-tag xs radius">
+					<text class="icon szkt-icon-timefill"></text>
+					<text> 2022-7-19 </text>
+				</view>
+			</view>
+			<view class="szkt-col-24 text4-clz"> “青年如初春，如朝日，如百卉之萌动，如利刃之新发于硎。”一百年来，在中国共产党的旗帜下，一代代中国青年把青春奋斗融入党和人民事业，成为实现中华民族伟大复兴的先锋力量。大写的赞！ </view>
+		</view>
+	</view>
+	
+	<view class="clearfix"></view>
+</view>
